@@ -16,33 +16,33 @@
 
 export const profile = {
   /** Your name as you want it to appear everywhere. */
-  displayName: "Your Name",
+  displayName: "Ibrahim Malik",
 
   /** Your UD email — must match the one you signed into the course with. */
-  email: "you@udel.edu",
+  email: "ibmalik@udel.edu",
 
   /** Where you're from. Shows on your roster card and /about. */
-  hometown: "Newark, Delaware",
+  hometown: "Dar-es-salaam, Tanzania",
 
   /**
    * 2 to 4 fun facts (the grader checks the count!). Real ones: they're
    * how classmates find something to say hello about.
    */
   funFacts: [
-    "I once assembled IKEA furniture without leftover screws.",
-    "I can name every U.S. state capital in under two minutes.",
+    "I speak Swahili, and 'hakuna matata' really is a way of life back home.",
+    "I enjoy reading Sufi poetry and reflective philosophy whenever I get a quiet moment away from screens.",
   ],
 
   /** One decision you're proud of, in a sentence. */
   decisionImProudOf:
-    "I chose to take a gap semester to work retail; it taught me more about customers than any textbook.",
+    "To stand in quiet gratitude for the path I have chosen: to let the heart be my compass, and to walk beside my daughters as a keeper of wonder, warmth, and unseen magic.",
 
   /**
    * Your photo. Replace public/photo.svg with a real photo of you
    * (e.g. put photo.jpg in the public/ folder and change this to "/photo.jpg").
    * It must be a real image file: the grader fetches it and checks.
    */
-  photoPath: "/photo.svg",
+  photoPath: "/photo.jpg",
 
   /**
    * Who can see your roster card:
@@ -52,13 +52,14 @@ export const profile = {
   rosterVisibility: "class" as "class" | "professor-only",
 
   /** A one-line tagline for your home page. Make it yours. */
-  tagline: "Building a portfolio of decision services, one lane at a time.",
+  tagline:
+    "A humble traveler on the path, learning with gratitude and serving with kindness.",
 
   /**
    * A short bio for your home page: two or three sentences, written like
    * a person, not a resume. What are you studying? What do you care about?
    */
-  bio: "I'm a business student at the University of Delaware learning to make good decisions at any scale. This site is my working portfolio: every course challenge deploys here as a live service.",
+  bio: "My journey has carried me from the coast of Dar es Salaam, Tanzania to the University of Delaware, where I continue to grow as both a student and a father. I believe that true learning happens through curiosity, patience, and kindness toward the people we meet along the way. I am excited to build new things in this course and share good company with my classmates.",
 
   /**
    * Your GitHub repo URL. The course platform reads this from /api/health to
